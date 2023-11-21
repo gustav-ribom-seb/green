@@ -9,7 +9,8 @@ const options = {
 console.log('Generating scope suffix...')
 hashElement(path.join(__dirname, '../src'), options)
   .then((hash) => {
-    const suffix = hash.hash.substring(0, 6)
+    //const suffix = hash.hash.substring(0, 6)
+    const suffix = '';
     console.log(`Scope suffix: ${suffix}`)
     const results = replace.sync({
       files: 'dist/libs/core/src/index.js',

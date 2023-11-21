@@ -59,7 +59,7 @@
 import { html as litHtml } from 'lit'
 import { customElement } from 'lit/decorators.js'
 
-const VER_SUFFIX = '-gdsvsuffix'
+const VER_SUFFIX = ''
 const elementLookupTable = new Map<string, string>()
 
 /**

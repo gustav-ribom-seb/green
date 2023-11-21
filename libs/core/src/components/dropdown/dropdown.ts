@@ -75,7 +75,7 @@ export class GdsDropdown<ValueT = any>
   searchable = false
 
   /**
-   * Wheter the dropdown should support multiple selections.
+   * Whether the dropdown should support multiple selections.
    * When set to true, the dropdown will render a checkbox next to each option.
    * The value of the dropdown will be an array of the selected values.
    */

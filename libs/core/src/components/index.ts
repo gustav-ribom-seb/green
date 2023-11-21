@@ -11,4 +11,5 @@ export * from './input/switch/switch'
 export * from './badge/badge'
 export * from './tooltip/tooltip'
 export * from '../primitives/listbox/option'
+export * from './card/card'
 
